@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#C8EDFE"
+    tools:context=".Bai1.DetailHoa2">
+    <ImageView
+        android:transitionName="hoa4"
+        android:layout_marginTop="25sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/removebg_flower_1"/>
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_marginTop="25dp"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:text="Before the start of the fasting period \n of Lent (on Ash Wednesday), people \n had fun running Carnivals as it was \n their last chance until Easterto eat \n meat. The celebration was also a \n way to chase off the gloom of winter \n in the hope of spring."/>
+
+    <Button
+
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/button"
+        android:text="BACK"
+        android:textColor="@color/white"
+        android:layout_marginTop="30dp"
+        android:textSize="25sp"/>
+</LinearLayout>
